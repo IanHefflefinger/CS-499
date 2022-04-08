@@ -1,0 +1,33 @@
+<%- include('./partials/header.ejs') %>
+
+	<form method="POST" action="/contact" id="contactform" class="col-lg-5">
+		<h1>Contact Us</h1>
+		<div class="mb-3">
+			<label for="fname" class="form-label">First name</label>
+			<input type="text" class="form-control" id="fname" placeholder="Jane" name="firstname" required>
+		</div>
+		<div class="mb-3">
+			<label for="lname" class="form-label">Last name</label>
+			<input type="text" class="form-control" id="lname" placeholder="Doe" name="lastname"required>
+		</div>
+		<div class="mb-3">
+			<label for="email" class="form-label">Email address</label>
+			<input type="email" class="form-control" id="email" placeholder="name@example.com" name="email"required>
+		</div>
+		<div class="mb-3">
+			<label for="productservice">Product/Service</label>
+			<select class="form-select" aria-label="Default select example" id="productservice" name="productservice"required>
+				<option disabled selected value> -- select an option -- </option>
+				<option value="other">Other</option>
+				<option value="blade">Blade sharpening</option>
+				<option value="engine">Engine maintenence</option>
+			</select>
+		</div>
+		<div class="mb-3">
+			<label for="subject" class="form-label">Subject</label>
+			<textarea class="form-control" id="subject" rows="6" placeholder="Enter your message here..." name="subject"required></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+<%- include('./partials/footer.ejs') %>

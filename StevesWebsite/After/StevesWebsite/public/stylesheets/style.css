@@ -1,0 +1,120 @@
+/* FIXME: There are duplicates here that could be classes instead of id's or one single class instead of classes with some information */
+
+/* ***************** START HOME STYLING ***************** */
+#mainPageImage {
+	width: 100%;
+}
+
+#homesection {
+	text-align: center;
+	margin: 6vh auto;
+	padding: 1vh;
+}
+
+#mainPageImage2 {
+	width: 27vw;
+}
+
+@media only screen and (max-width: 800px) {
+	#mainPageImage2 {
+		width: 60vw;
+	}
+}
+
+#testamonials {
+	margin-top: 5vh;
+}
+
+.testamonial {
+	width: 300px;
+	display: inline-block;
+	margin: 2vh auto;
+}
+
+
+/* ***************** START ABOUT STYLING ***************** */
+#aboutsection {
+	text-align: center;
+	margin: 6vh auto;
+	padding: 1vh;
+	height: 80vh
+}
+
+#aboutImage {
+	width: 50vw;
+}
+
+@media only screen and (max-width: 800px) {
+	#aboutImage {
+		width: 80vw;
+	}
+}
+
+#aboutText {
+	margin-top: 5vh;
+	padding: 1vh;
+}
+
+
+/* ***************** START SERVICES STYLING ***************** */
+#servicessection {
+	text-align: center;
+	margin: 6vh auto;
+	padding: 1vh;
+}
+.servicesimg {
+	height: 40vh;
+	margin-bottom: 2vh;
+}
+.servicesinfo {
+	margin-top: 6vh;
+}
+
+
+/* ***************** START PRODUCTS STYLING ***************** */
+#productssection {
+	text-align: center;
+	margin: 6vh auto;
+	padding: 1vh;
+}
+
+.productsinfo {
+	margin-top: 6vh;
+}
+
+.productsimg {
+	height: 40vh;
+	margin-bottom: 2vh;
+}
+
+
+/* ***************** START CONTACT STYLING ***************** */
+#contactform {
+	margin: auto;
+	padding: 15px;
+	min-height: 90vh;
+}
+
+#contactform h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+#successmessage {
+	margin: auto;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
