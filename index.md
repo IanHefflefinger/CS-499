@@ -2,7 +2,7 @@
 
 ## Code Review (Video)
 
-[![Alternate Text]({image-url})]({Code Review copy.mp4} "Link Title")
+[![Alternate Text]({image-url})]({./Code Review copy.mp4} "Link Title")
 
 ## Polished Work
 
