@@ -6,9 +6,9 @@
 
 ### Software Design and Engineering
 
-#### Project: [Steve's Mower Repair Services](https://github.com/IanHefflefinger/CS-499/tree/master/StevesWebsite)
+##### Project: [Steve's Mower Repair Services](https://github.com/IanHefflefinger/CS-499/tree/master/StevesWebsite)
 
-#### Narrative: 
+##### Narrative: 
 
 Steves Mower Repair Services is a website that I initially created for IT-270: Web Site Design in early 2021. It was a simple HTML/CSS/JavaScript website that represented a fictional mower-repair business owned and operated by a man named, “Steve”. This website was strictly a front-end website that did not include a server.
 
@@ -31,9 +31,9 @@ As I was improving this website, I ran into several issues with the new features
 
 ### Algorithms and Data Structures
 
-#### Project: [Apples & Oranges / Inventory Management System](https://github.com/IanHefflefinger/CS-499/tree/master/ApplesAndOranges)
+##### Project: [Apples & Oranges / Inventory Management System](https://github.com/IanHefflefinger/CS-499/tree/master/ApplesAndOranges)
 
-#### Narrative: 
+##### Narrative: 
 
 Apples and Oranges was an application I initially wrote in my IT-145 Foundations in Application Development course. It was a simple application that asked the user how many apples and oranges were in stock, how many needed to be in stock, and calculated the difference and showed the user how many needed to be ordered. It was a very simple application that served mostly as a module to teach about java variables and basic input/output.
 
@@ -47,9 +47,9 @@ I initially started programming the application to use inventory item objects (t
 
 ### Databases
 
-#### Project: [Database Commands](https://github.com/IanHefflefinger/CS-499/tree/master/DatabaseCommands)
+##### Project: [Database Commands](https://github.com/IanHefflefinger/CS-499/tree/master/DatabaseCommands)
 
-#### Narrative: 
+##### Narrative: 
 
 SQL Commands was a script I wrote in DAD-220 Introduction to SQL back in 2019. It is an SQL script that creates a database, three tables inside the database, and then seeds the tables with data (relating to the table). The script also defines the schema for the database (it decides what and how the data is entered).
 
