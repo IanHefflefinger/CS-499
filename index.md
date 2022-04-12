@@ -2,7 +2,7 @@
 
 ## Code Review (Video)
 
-[![Alternate]({image-url})]({./Code Review copy.mp4} "Link Title")
+FIXME: add link to youtube video here
 
 ## Polished Work
 
