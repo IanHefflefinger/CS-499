@@ -2,7 +2,7 @@
 
 ## Code Review (Video)
 
-FIXME: add link to youtube video here
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=AVhtYNmyFdI)](https://www.youtube.com/watch?v=AVhtYNmyFdI)
 
 ## Polished Work
 
