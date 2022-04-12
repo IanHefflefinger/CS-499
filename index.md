@@ -35,6 +35,15 @@ As I was improving this website, I ran into several issues with the new features
 
 #### Narrative: 
 
+Apples and Oranges was an application I initially wrote in my IT-145 Foundations in Application Development course. It was a simple application that asked the user how many apples and oranges were in stock, how many needed to be in stock, and calculated the difference and showed the user how many needed to be ordered. It was a very simple application that served mostly as a module to teach about java variables and basic input/output.
+
+Inventory Management System is an almost total re-work of Apples and Oranges that I created in late March of 2022. The application is now meant to include all objects, but with some facets still focused on fruits. The app asks the user for the fruits (or any non-fruit object) name, how many are in stock, an how many need to be in stock and then uploads the information to a database. There is a menu in the app that allows the user to add items, list all items, find specific items, update items, and delete items. The application contains full CRUD functionality, data validation, and a clear menu that the user can use to learn more.
+
+I selected this item because it was very immature and needed a lot of work to be taken seriously as an application. I knew that I could upgrade the application to use a more diverse array of data types and algorithms to collect data from the user, process it, and insert it into a database (or query from it). The artifact was improved by adding a database, full CRUD functionality, a menu of commands, data validation, a user-friendly output to the terminal, and a broader array of data structures.
+
+The course objectives were absolutely met. The application clearly uses more advanced algorithms and data structures to manage data in the program (Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)). The application also offers slightly better security by providing an interface to a database that cannot be modified outside the scope of the application - this fulfills “Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources”.
+
+I initially started programming the application to use inventory item objects (to represent things like bananas, apples, etc.), but as I was going along I also wanted a database in order to legitimize the application. It felt cumbersome to created objects just to rip them apart, add their fields into a database, and destroy them. I ended up rewriting the application to include CRUD database API’s that could be used by the program to perform the applications objective. I learned how to use Javas JDBC to communicate with a MySQL database - this provided a huge advantage because it meant I could more directly communicate with the data store. I also learned how to gather user input in loops and sub-loops to gather large amounts of specific input.
 
 ### Databases
 
@@ -42,3 +51,12 @@ As I was improving this website, I ran into several issues with the new features
 
 #### Narrative: 
 
+SQL Commands was a script I wrote in DAD-220 Introduction to SQL back in 2019. It is an SQL script that creates a database, three tables inside the database, and then seeds the tables with data (relating to the table). The script also defines the schema for the database (it decides what and how the data is entered).
+
+NoSQL Commands is a script I wrote in early 2022. It is a JavaScript that creates a database, three collections (similar to tables in SQL), and seeds each collection with relevant data (the same data in the SQL database). This script does not define a schema as that is done by the client.
+
+SQL and NoSQL are two sides to the same coin. Databases are vital to applications and knowing how to work with more than one type is very important for todays software developer. Being able to migrate from SQL to NoSQL and vice-versa displays a deep knowledge of how databases work and why they exist. The artifact was improved by being converted to a database that uses a data format that is closer to JSON, which is used by many applications, especially web-applications. MongoDB is also a very scalable database and can out-perform SQL in certain realms. 
+
+I met the course objectives for databases in this assignment. I clearly demonstrated my knowledge of how each database is configured to enter data (the very same data) into each. I have no planned updates to this database so far, but will implement any that I might find in the future. 
+
+I expected this to be the easier of my three enhancements, but it has proved to be the most difficult. SQL uses schemas to define how data is stored in tables, whereas MongoDB is schema-less. SQL also has the ability to use auto-incremented fields for id’s, but MongoDB uses it’s own auto-generated id’s which are not incremented. I had to enter the data into MongoDB in a very unique way to replicate one of the SQL tables (the messages table), which showed the relation between elements. 
