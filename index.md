@@ -2,7 +2,7 @@
 
 ## Code Review (Video)
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=AVhtYNmyFdI)](https://www.youtube.com/watch?v=AVhtYNmyFdI)
+[![Code Review](https://www.youtube.com/watch?v=AVhtYNmyFdI)](https://www.youtube.com/watch?v=AVhtYNmyFdI)
 
 ## Polished Work
 
