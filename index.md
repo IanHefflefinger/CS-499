@@ -10,7 +10,7 @@ In various courses, I used software to design solutions to various problems, inc
 
 In my program, I learned how to use SQL to query databases - this provided a strong base for persistent data-storage and allowed me to tie together all the main aspects of full-stack development: the front-end, back-end, and database. I also learned how to use NoSQL (specifically, MongoDB) as an alternative to traditional SQL - this allowed me to see databases as more than one unified technology.
 
-Creating secure software is paramount to a successful application. Over the past few years I have learned how to code in a manner that is more secure and less prone to attack or accident. Sometime adding security can be as simple as setting a method or variable to private and at other times can be as complicated as adding profiles and authentication/authorization to each resource in your application. I learned how to add these security features and much more.
+Creating secure software is paramount to a successful application. Over the past few years I have learned how to code in a manner that is more secure and less prone to attack or accident. Sometimes adding security can be as simple as setting a method or variable to private and at other times can be as complicated as adding profiles and authentication/authorization to each resource in your application. I learned how to add these security features and much more.
 
 My program had a focus in software engineering and instructed me to see software as much more than just code on a page. Compiling, testing, UML designs, and collaborative software (git, BitBucket, GitHub) are all industry-standard and part of the daily life of a computer scientist. I am now much better suited to enter the software engineering profession.
 
