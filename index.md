@@ -1,6 +1,6 @@
 ## Professional Self-Assessment
 
-Throughout my time in the Computer Science program at SNHU, I have learned quite a bit about about al things computer-related. I have learned the software development process, how operating systems work, UML diagramming, and much more. Developing an ePortfolio has given me a way to reflect on how far I have come since starting this program and how all the fundamentals come together. I can now take designing, testing, and other SDLC facets and apply them to my software development process. 
+Throughout my time in the Computer Science program at SNHU, I have learned quite a bit about about all things computer-related. I have learned the software development process, how operating systems work, UML diagramming, and much more. Developing an ePortfolio has given me a way to reflect on how far I have come since starting this program and how all the fundamentals come together. I can now take designing, testing, and other SDLC facets and apply them to my software development process. 
 
 In my program, I worked with others, using Git and BitBucket to collaborate on projects. Working on teams and using these programs, I learned how to create solutions with others in an effective and efficient manner so deliverables can be submitted on-time and communication to stakeholders can be addressed promptly. In my team development class, we collaborated to create a single Java application and had around 20 people entirely on the “same page” even though we spanned multiple timezones. 
 
