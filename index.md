@@ -1,5 +1,31 @@
 ## Professional Self-Assessment
 
+Throughout my time in the Computer Science program at SNHU, I have learned quite a bit about about al things computer-related. I have learned the software development process, how operating systems work, UML diagramming, and much more. Developing an ePortfolio has given me a way to reflect on how far I have come since starting this program and how all the fundamentals come together. I can now take designing, testing, and other SDLC facets and apply them to my software development process. 
+
+In my program, I worked with others, using Git and BitBucket to collaborate on projects. Working on teams and using these programs, I learned how to create solutions with others in an effective and efficient manner so deliverables can be submitted on-time and communication to stakeholders can be addressed promptly. In my team development class, we collaborated to create a single Java application and had around 20 people entirely on the “same page” even though we spanned multiple timezones. 
+
+Early in my program all the way up to now, we used various data structures to create solutions that were flexible and appropriate. One particular class heavily involved algorithms in C++ to teach various searching methods and how to create different data structures (queues, stacks, lists, etc.). I learned how to write classes to build objects and how to use UML diagrams for blueprinting those classes so the same UML diagram can be used as a blueprint for multiple (coding) languages.
+
+In various courses, I used software to design solutions to various problems, including full-stack solutions and locally run applications. I learned how to read data into programs via .csv files, process it, and render it to an appropriate part of the program. Using Python, we created a program that sorted data queried from a database and rendered it to a graphical user interface that was stylish and provided a good user experience. We also learned how to test programs using unit testing, so our code can be more robust and well-understood.
+
+In my program, I learned how to use SQL to query databases - this provided a strong base for persistent data-storage and allowed me to tie together all the main aspects of jul-stack development: the front-end, back-end, and database. I also learned how to use NoSQL (specifically, MongoDB) as an alternative to traditional SQL - this allowed me to see databases as more than one unified technology.
+
+Creating secure software is paramount to a successful application. Over the past few years I have learned how to code in a manner that is more secure and less prone to attack or accident. Sometime adding security can be as simple as setting a method or variable to private and at other times can be as complicated as adding profiles and authentication/authorization to each resource in your application. I learned how to add these security features and much more.
+
+My program had a focus in software engineering and instructed me to see software as much more than just code on a page. Compiling, testing, UML designs, and collaborative software (git, BitBucket, GitHub) are all industry-standard and part of the daily life of a computer scientist. I am now much better suited to enter the software engineering profession.
+
+In the following segments, I have picked and improved upon 3 pieces of software to showcase my computer science talents and abilities: Steve’s Mower Repair Services, Apples & Oranges, and Database Commands. 
+
+The upgrade to Steve’s Mower Repair Services demonstrates my ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals and a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. 
+
+The upgrade to Apples & Oranges demonstrates my ability to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices and also displays my ability to integrate a database into an application for data-persistence. 
+
+Database Commands specifically demonstrates my ability to look at data (the same data) in one database and replicate it in another. Many instance call for different types of databases for different reasons and being able to take the same data and structure it into two very different types of databases shows true understanding of database knowledge. 
+
+This portfolio itself, as well as many of the markdown files accompanying each project shows my ability to design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+Many of these projects used git and GitHub for development. While I created these applications myself, it is important to use these technologies in the event of collaboration and that serves as my ability to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+
 ## Code Review (Video)
 
 [![Code Review](https://www.youtube.com/watch?v=AVhtYNmyFdI)](https://www.youtube.com/watch?v=AVhtYNmyFdI)
