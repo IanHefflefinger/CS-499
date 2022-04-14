@@ -121,7 +121,11 @@ I initially started programming the application to use inventory item objects (t
 
 SQL Commands was a script I wrote in DAD-220 Introduction to SQL back in 2019. It is an SQL script that creates a database, three tables inside the database, and then seeds the tables with data (relating to the table). The script also defines the schema for the database (it decides what and how the data is entered).
 
+![Picture of SQL output](sqlOutput.png)
+
 NoSQL Commands is a script I wrote in early 2022. It is a JavaScript that creates a database, three collections (similar to tables in SQL), and seeds each collection with relevant data (the same data in the SQL database). This script does not define a schema as that is done by the client.
+
+![Picture of NoSQL output](noSql.png)
 
 SQL and NoSQL are two sides to the same coin. Databases are vital to applications and knowing how to work with more than one type is very important for todays software developer. Being able to migrate from SQL to NoSQL and vice-versa displays a deep knowledge of how databases work and why they exist. The artifact was improved by being converted to a database that uses a data format that is closer to JSON, which is used by many applications, especially web-applications. MongoDB is also a very scalable database and can out-perform SQL in certain realms. 
 
