@@ -46,7 +46,38 @@ The enhanced version of the website is a full-stack application with a Node.js/E
 
 I selected this artifact because I knew I could significantly improve upon it. The initial application was strictly HTML/CSS/JavaScript and I knew enough about Node.js/Express to host it on a server. I also felt the website could be easily modified to look more presentable and to render information more appropriately. 
 
-This site now contains a fully functioning form with client-side validation that sends a POST request to a server with server-side validation. The form renders a success page once the server receives and validates the request. The site also uses Bootstrap on the front-end so styling and UI features could be implemented more easily. Bootstrap also allowed for the site to be more mobile-friendly and now the site includes a navbar that can be used on a mobile-sized device. The site also no longer has resizing issues with the images, cards, and navigation bar.
+This site now contains a fully functioning form with client-side validation that sends a POST request to a server with server-side validation. 
+'''
+var express = require('express');
+var router = express.Router();
+const { body, validationResult } = require('express-validator');
+
+/* GET contact page. */
+router.get('/', function(req, res, next) {
+  res.render('contact', { title: 'Contact' });
+});
+
+/* POST (form to) contact page. */
+router.post(
+  '/', 
+  body('email').isEmail(), // ensure is in email format
+  body('firstname').exists(),
+  body('lastname').exists(),
+  body('subject').exists(),
+  body('productservice').exists().isString().isIn(['other', 'blade', 'engine']), // ensure sent item is one of the provided options
+  function(req, res, next) {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+    res.render('success', { title: 'Success' });
+  }
+  // NOTE: I am not going to implement the nodemailer feature due to lack of time on this project. 
+);
+
+module.exports = router;
+'''
+The form renders a success page once the server receives and validates the request. The site also uses Bootstrap on the front-end so styling and UI features could be implemented more easily. Bootstrap also allowed for the site to be more mobile-friendly and now the site includes a navbar that can be used on a mobile-sized device. The site also no longer has resizing issues with the images, cards, and navigation bar.
 
 The enhanced version of the site uses ejs on the backend to allow for templating - this significantly DRY’s up the code and allows for uniform headers and footers on each page. The templating engine ejs also allows for much easier dynamic rendering of data on each page and lays a foundation for a more dynamic future for the site (ejs could allows for a lot of future opportunities with each page). 
 
