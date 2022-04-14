@@ -40,7 +40,7 @@ Many of these projects used git and GitHub for development. While I created thes
 
 Steves Mower Repair Services is a website that I initially created for IT-270: Web Site Design in early 2021. It was a simple HTML/CSS/JavaScript website that represented a fictional mower-repair business owned and operated by a man named, “Steve”. This website was strictly a front-end website that did not include a server.
 
-![Tux, the Linux mascot](OriginalSiteIssues.png)
+![Image showing original site issues](OriginalSiteIssues.png)
 
 The enhanced version of the website is a full-stack application with a Node.js/Express.js back-end. The enhanced application also contains several design modifications, security improvements, and features. The enhanced version of the site contains the same content (with a few exceptions) as the initial site, but with a functioning back-end. This site was created in March of 2022.
 
@@ -85,7 +85,7 @@ The planned outcome-coverage for these assignments are, “Demonstrate an abilit
 
 This enhanced application has visual design changes that are obvious improvements to the user interface. The mobile-first enhancement is a far better design and is more user-friendly. Adding Bootstrap allowed for a better user experience (especially with the navigation bar on mobile devices). The form is significantly enhanced and provides validation on the client and server levels. Images now render and resize appropriately and content within the pages reacts correctly to resizing.
 
-![Tux, the Linux mascot](NewSiteImprovements.png)
+![Image showing visual improvements to site](NewSiteImprovements.png)
 
 Migrating the site to the back-end took engineering skills and allowed for an application that can actually be accessed by end-users in remote locations. Features were added on the back-end to allow the form to actually be useful and validate data before returning an appropriate response to the user. The back-end of the site uses Node.js/Express.js as a server-language/framework - this is a rising technology that is in high demand.
 
@@ -102,7 +102,11 @@ Apples and Oranges was an application I initially wrote in my IT-145 Foundations
 
 Inventory Management System is an almost total re-work of Apples and Oranges that I created in late March of 2022. The application is now meant to include all objects, but with some facets still focused on fruits. The app asks the user for the fruits (or any non-fruit object) name, how many are in stock, an how many need to be in stock and then uploads the information to a database. There is a menu in the app that allows the user to add items, list all items, find specific items, update items, and delete items. The application contains full CRUD functionality, data validation, and a clear menu that the user can use to learn more.
 
+![Hep menu on app](fruitCommands.png)
+
 I selected this item because it was very immature and needed a lot of work to be taken seriously as an application. I knew that I could upgrade the application to use a more diverse array of data types and algorithms to collect data from the user, process it, and insert it into a database (or query from it). The artifact was improved by adding a database, full CRUD functionality, a menu of commands, data validation, a user-friendly output to the terminal, and a broader array of data structures.
+
+![Picture of app output and database output](fruitsRedux.png)
 
 The course objectives were absolutely met. The application clearly uses more advanced algorithms and data structures to manage data in the program (Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)). The application also offers slightly better security by providing an interface to a database that cannot be modified outside the scope of the application - this fulfills “Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources”.
 
