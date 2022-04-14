@@ -91,6 +91,7 @@ Migrating the site to the back-end took engineering skills and allowed for an ap
 
 As I was improving this website, I ran into several issues with the new features I was adding and the updated styling. I initially ran into issues with Express.js and it’s router module where I was not able to render any pages except root and users but I was able to resolve the issue after some time on Stack Overflow. I also ran into issues with implementing actual functioning to the form. For the form validation, I used a package (express-validator) who’s documentation referenced dependancies that are now integrated with Express, so I had to modify the base code to omit some information that was outdated. All of the other issues I ran into were fairly straightforward to resolve. I learned a fair amount about Express.js, Bootstrap, and CSS throughout the process. For example, I learned that multiple views can be rendered to a single URL (this proved useful with the form pages success message).
 
+![Image showing success message on contact form](successMessage.png)
 
 ### Algorithms and Data Structures
 
