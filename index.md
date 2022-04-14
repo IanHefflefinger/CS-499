@@ -40,6 +40,8 @@ Many of these projects used git and GitHub for development. While I created thes
 
 Steves Mower Repair Services is a website that I initially created for IT-270: Web Site Design in early 2021. It was a simple HTML/CSS/JavaScript website that represented a fictional mower-repair business owned and operated by a man named, “Steve”. This website was strictly a front-end website that did not include a server.
 
+![Tux, the Linux mascot](OriginalSiteIssues.png)
+
 The enhanced version of the website is a full-stack application with a Node.js/Express.js back-end. The enhanced application also contains several design modifications, security improvements, and features. The enhanced version of the site contains the same content (with a few exceptions) as the initial site, but with a functioning back-end. This site was created in March of 2022.
 
 I selected this artifact because I knew I could significantly improve upon it. The initial application was strictly HTML/CSS/JavaScript and I knew enough about Node.js/Express to host it on a server. I also felt the website could be easily modified to look more presentable and to render information more appropriately. 
@@ -51,6 +53,8 @@ The enhanced version of the site uses ejs on the backend to allow for templating
 The planned outcome-coverage for these assignments are, “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)”. This assignment specifically was meant to meets the goals of Software Design and Engineering. The enhanced artifact absolutely met the criteria for Software Design and Engineering. 
 
 This enhanced application has visual design changes that are obvious improvements to the user interface. The mobile-first enhancement is a far better design and is more user-friendly. Adding Bootstrap allowed for a better user experience (especially with the navigation bar on mobile devices). The form is significantly enhanced and provides validation on the client and server levels. Images now render and resize appropriately and content within the pages reacts correctly to resizing.
+
+![Tux, the Linux mascot](NewSiteImprovements.png)
 
 Migrating the site to the back-end took engineering skills and allowed for an application that can actually be accessed by end-users in remote locations. Features were added on the back-end to allow the form to actually be useful and validate data before returning an appropriate response to the user. The back-end of the site uses Node.js/Express.js as a server-language/framework - this is a rising technology that is in high demand.
 
