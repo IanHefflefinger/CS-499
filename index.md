@@ -24,7 +24,7 @@ Database Commands specifically demonstrates my ability to look at data (the same
 
 This portfolio itself, as well as many of the markdown files accompanying each project shows my ability to design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 
-Many of these projects used git and GitHub for development. While I created these applications myself, it is important to use these technologies in the event of collaboration and that serves as my ability to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+Many of these projects used git and GitHub for development. While I created these applications myself, it is important to use these technologies in the event of collaboration and that serves as my ability to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science. I also added comments to code, where appropriate, to give future collaborators an ease into understanding the applications.
 
 ## Code Review (Video)
 
