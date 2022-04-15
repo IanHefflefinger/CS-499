@@ -85,7 +85,7 @@ The planned outcome-coverage for these assignments are, “Demonstrate an abilit
 
 This enhanced application has visual design changes that are obvious improvements to the user interface. The mobile-first enhancement is a far better design and is more user-friendly. Adding Bootstrap allowed for a better user experience (especially with the navigation bar on mobile devices). The form is significantly enhanced and provides validation on the client and server levels. Images now render and resize appropriately and content within the pages reacts correctly to resizing.
 
-Using Express.js, I redesigned the app to use the "VC" in MVC (the application does not use a database, so no model was needed). It is best practice to seperate the model, view, and controller and makes it easier to seperate concerns. The new application easily seperates logic from view. The code is also substantially more efficient because it uses ejs for templating so code can be reused without being retyped.
+Using Express.js, I redesigned the app to use the "VC" in MVC (the application does not use a database, so no model was needed). It is best practice to separate the model, view, and controller and makes it easier to separate concerns. The new application easily separates logic from view. The code is also substantially more efficient because it uses ejs for templating so code can be reused without being retyped.
 
 Data validation on the front end is not enough as users could use another program to make GET and POST requests to a server. Server-side data validation was implemented as a security feature as the form/route posed the only real security exploit on the system.
 
